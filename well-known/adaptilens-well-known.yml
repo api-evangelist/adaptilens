@@ -1,0 +1,81 @@
+generated: '2026-09-07'
+method: probed
+source: live GET of the named /.well-known/ path list on every host this record knows
+hit_count: 0
+note: >-
+  No discovery document is served. adaptilens.com runs a WordPress marketing site whose error handler
+  is broken: every path other than / and /team/ returns HTTP 500 with the WordPress body
+  "There has been a critical error on this website." The negative-control path returned the SAME 500,
+  so 500 is this host's not-found signal and none of these paths carries a document. No WellKnown and
+  no SecurityTxt pointer is emitted: this file records an absence, not a served surface.
+hosts:
+- host: https://adaptilens.com
+  path_echo_control: passed
+  control_note: negative-control path returned 500, identical to every probed path — true absence, not an SPA catch-all
+  documents:
+  - path: /.well-known/security.txt
+    status: 500
+  - path: /.well-known/openid-configuration
+    status: 500
+  - path: /.well-known/oauth-authorization-server
+    status: 500
+  - path: /.well-known/oauth-protected-resource
+    status: 500
+  - path: /.well-known/api-catalog
+    status: 500
+  - path: /.well-known/ai-plugin.json
+    status: 500
+  - path: /.well-known/agent-card.json
+    status: 500
+  - path: /.well-known/agent.json
+    status: 500
+  - path: /.well-known/aauth-resource.json
+    status: 500
+  - path: /.well-known/ucp.json
+    status: 500
+  - path: /.well-known/acp.json
+    status: 500
+  - path: /.well-known/apis.json
+    status: 500
+  - path: /apis.json
+    status: 500
+  - path: /apis.yml
+    status: 500
+  - path: /.well-known/adaptilens-negative-control-4b19cd7e.json
+    status: 500
+    control: true
+- host: https://www.adaptilens.com
+  path_echo_control: passed
+  control_note: negative-control path returned 500, identical to every probed path — true absence, not an SPA catch-all
+  documents:
+  - path: /.well-known/security.txt
+    status: 500
+  - path: /.well-known/openid-configuration
+    status: 500
+  - path: /.well-known/oauth-authorization-server
+    status: 500
+  - path: /.well-known/oauth-protected-resource
+    status: 500
+  - path: /.well-known/api-catalog
+    status: 500
+  - path: /.well-known/ai-plugin.json
+    status: 500
+  - path: /.well-known/agent-card.json
+    status: 500
+  - path: /.well-known/agent.json
+    status: 500
+  - path: /.well-known/aauth-resource.json
+    status: 500
+  - path: /.well-known/ucp.json
+    status: 500
+  - path: /.well-known/acp.json
+    status: 500
+  - path: /.well-known/apis.json
+    status: 500
+  - path: /apis.json
+    status: 500
+  - path: /apis.yml
+    status: 500
+  - path: /.well-known/adaptilens-negative-control-4b19cd7e.json
+    status: 500
+    control: true

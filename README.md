@@ -64,5 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Adaptilens is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Adaptilens is a privately held, pre-clinical ophthalmic medical device company based in Chestnut Hill, Massachusetts, developing the Adaptilens A-IOL, described by the company as the first biomimetic accommodating intraocular lens. The soft, flexible lens is built around a patent-protected bottlebrush polymer intended to mimic the young natural crystalline lens, responding to the eye's own ciliary muscles and natural signal to focus so that cataract patients regain near, intermediate and distance vision without glasses. The company raised $1.6M in seed funding led by Pillar VC and a $17.5M Series A led by Perceptive Xontogeny Venture Funds with Pillar VC, 380 Cap and Accanto Partners. Its own site states the Adaptilens is in the development phase and is not yet approved for investigational or commercial use. Adaptilens is a device developer, not a software company, and publishes no developer program, no API documentation and no machine-readable API contract of any kind.
+
+- [Website](https://adaptilens.com/)
+- [LinkedIn](https://www.linkedin.com/company/adaptilens/)
+
+> **No API surface.** As of 2026-09-07 Adaptilens publishes no developer program, documentation or machine-readable API contract. See `x-coverage` in `apis.yml` for the probed evidence.

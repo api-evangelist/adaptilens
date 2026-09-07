@@ -1,0 +1,15 @@
+generated: '2026-09-07'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: adaptilens.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec  3 04:39:39 2026 GMT
+  hsts: false
+domains:
+- domain: adaptilens.com
+  dnssec: true
+  caa: []
+  spf: false
+  dmarc: false
