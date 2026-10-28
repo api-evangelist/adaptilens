@@ -66,7 +66,77 @@
 
 Adaptilens is a privately held, pre-clinical ophthalmic medical device company based in Chestnut Hill, Massachusetts, developing the Adaptilens A-IOL, described by the company as the first biomimetic accommodating intraocular lens. The soft, flexible lens is built around a patent-protected bottlebrush polymer intended to mimic the young natural crystalline lens, responding to the eye's own ciliary muscles and natural signal to focus so that cataract patients regain near, intermediate and distance vision without glasses. The company raised $1.6M in seed funding led by Pillar VC and a $17.5M Series A led by Perceptive Xontogeny Venture Funds with Pillar VC, 380 Cap and Accanto Partners. Its own site states the Adaptilens is in the development phase and is not yet approved for investigational or commercial use. Adaptilens is a device developer, not a software company, and publishes no developer program, no API documentation and no machine-readable API contract of any kind.
 
-- [Website](https://adaptilens.com/)
-- [LinkedIn](https://www.linkedin.com/company/adaptilens/)
+**Areas:** Medical Devices · Ophthalmology · Intraocular Lens · Health · Life Sciences · Biotechnology · Vision · Cataract Surgery · Massachusetts · Company
 
-> **No API surface.** As of 2026-09-07 Adaptilens publishes no developer program, documentation or machine-readable API contract. See `x-coverage` in `apis.yml` for the probed evidence.
+## Adaptilens on APIs.io
+
+Everything profiled for Adaptilens is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/adaptilens/](https://apis.io/providers/adaptilens/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Adaptilens Domain Security](https://apis.io/security/adaptilens/adaptilens-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://adaptilens.com/)
+
+## API Evangelist rating
+
+**Kin Score 3.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adaptilens/](https://apis.io/providers/adaptilens/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Adaptilens: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/adaptilens/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
